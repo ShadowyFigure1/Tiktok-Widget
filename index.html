@@ -8,10 +8,15 @@
       margin: 0;
       overflow: hidden;
       background: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
     }
 
     #tiktok-link {
-      display: inline-block;
+      display: flex;
+      align-items: center;
       padding: 10px 20px;
       background-color: #000000;
       color: white;
@@ -27,10 +32,17 @@
       background-color: #ff0050;
       transform: scale(1.05);
     }
+
+    #tiktok-logo {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
   </style>
 </head>
 <body>
   <a id="tiktok-link" href="https://www.tiktok.com/@shad0w_figure" target="_blank">
+    <img id="tiktok-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/09/TikTok_logo.svg" alt="TikTok">
     Follow me on TikTok!
   </a>
 </body>
